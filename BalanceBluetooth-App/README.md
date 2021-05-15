@@ -16,4 +16,4 @@
 
 - Teste com balança conectado via Bluetooth
 
-[![app - teste balança](https://imgur.com/WVLji1L)](https://youtu.be/taqgwDc-Qa8)
+[![app - teste balança](https://i.imgur.com/WVLji1L.png)](https://youtu.be/taqgwDc-Qa8)
