@@ -1,23 +1,10 @@
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador illustration">
+<img src="https://image.freepik.com/fotos-gratis/tela-de-digitalizacao-de-programador-em-seu-smartwatch-com-camera-do-smartphone_1098-18710.jpg" min-width="400px" max-width="400px" width="400px" align="right" alt="Dev illustration">
 
 <p align="left"> 
--Desenvolvedor caiçara. <br>
--Formado em 2020 no curso de Sistemas para Internet da fatec em Santos - SP. <br>
--Encontrou nos códigos uma forma expressar suas ideias. <br>
-<strong>English</strong> <br>
--Caiçara developer. (Caiçara is term used for people born in Santos)<br>
--Graduated in 2020 in the course of Internet Systems at fatec in Santos - SP. <br>
--Found in the codes a way to express his ideas. <br>
- 
-</p>
+Olá, este repositório contem alguns dos projetos de empresas da qual pude contribuir com meus conhecimentos.
 
-<p align="left">
-  🦄 Linguagens: <strong>JavaScript () => es6+, Html5, CSS3 / Sass / Styled-Components, Bootstrap3+, React / React Native with [hooks, contexts, redux], react-query, Node (express), (learning) Nextjs, TypeScript, GraphQL, MongoDb, Mongoose, Postgres, Prisma and enthusiast of new technologies.</strong>
-</p>
+Em cada pasta contendo o nome ou a referencia que o projeto representa, deixo uma breve descrição sobre a finalidade de cada app e oque foi desenvido por mim ;)
 
-<p align="left">
-  💼 Ferramentas // tools: <strong>VSCode, MacOS, PC Desktop, Device Android and IPhone Simulator, AdobeXD, Figma, Heroku, Docker (learning
-), Git and GitHub.</strong>
 </p>
 
 <p align="left">
