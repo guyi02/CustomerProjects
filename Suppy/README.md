@@ -8,8 +8,6 @@
 - Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
 - Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
 
-###Images
+###Images or Gif
 
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](gif-suppy.gif)
