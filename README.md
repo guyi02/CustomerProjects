@@ -1,9 +1,9 @@
 <img src="https://image.freepik.com/fotos-gratis/tela-de-digitalizacao-de-programador-em-seu-smartwatch-com-camera-do-smartphone_1098-18710.jpg" min-width="400px" max-width="400px" width="400px" align="right" alt="Dev illustration">
 
 <p align="left"> 
-Olá, este repositório contem alguns dos projetos de empresas da qual pude contribuir com meus conhecimentos.
+Olá, este repositório contém alguns dos projetos de empresas da qual pude contribuir com meus conhecimentos.
 
-Em cada pasta contendo o nome ou a referencia que o projeto representa, deixo uma breve descrição sobre a finalidade de cada app e oque foi desenvido por mim ;)
+Em cada pasta contendo o nome ou a referência a respeito de cada projeto, deixo uma breve descrição sobre a finalidade de cada aplicação e as tarefas desenvolvidas por mim ;)
 
 </p>
 

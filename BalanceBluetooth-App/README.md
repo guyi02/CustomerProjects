@@ -9,8 +9,9 @@ APP PARA PESAGEM DE EMBALAGENS
 <p align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
+  <a href="#tech-stack">My Tasks</a> •
  <a href="#layout">Layout</a> • 
- <a href="#tech-stack">Tech Stack</a> •
+ <a href="#tech-stack">Tech Dependencies</a> •
 
 </p>
 
@@ -42,6 +43,24 @@ This application is intended to weigh egg packages, which are stored in boxes. T
   - a caixa é dividida em andares, cada peso é dividido por 3 andares, ao atingir um andar uma modal com um alerta abre fazendo um som de aviso / the box is divided into floors, each weight is divided by 3 floors, when reaching a floor a modal with an alert opens making a warning sound
   - usuário inicia pesagem de uma caixa / user starts weighing a box
   - ao preencher um andar da caixa, é retirado os produtos da balança conectada, o app salva o peso do andar em localStorage e o usuário inicia a pesagem já somando com o peso atingido do andar anterior / when filling a floor of the box, the products are removed from the balance connected, the app saves the weight of the floor in localStorage and the user starts weighing already adding to the weight reached from the previous floor
+
+---
+
+## My Tasks
+
+No presente projeto pude desenvolver toda a interface através de códigos em React e a comunicação com as apis vindas do backend. Utilizando da biblioteca "react-native-bluetooth-serial-next" pude conectar o app via bluetooth a uma balança de pesagem , que a cada segundo envia o peso atual contido na mesma.
+
+O cliente atualmente utiliza o aplicativo em um tablet dentro de seu depósito, portanto o layout em landscape (horizontal) precisaria estar de acordo com os wareframes desenvidos e aprovados pelo cliente.
+
+Foi a primeira experiencia em trabalhar em um app que conecta-se a um periferico externo, trazendo assim novos desafios e aprendizados durante o desenvolvimento.
+
+##### english
+
+In this project i was able to develop the entire interface through React codes and communication with the backend apis. Using the library "react-native-bluetooth-serial-next" I was able to connect the app to bluetooth to a weighing balance, which sends the current weight in it every second.
+
+The customer currently uses the application on a tablet within his warehouse, so the landscape (horizontal) layout would need to be in accordance with the wareframes developed and approved by the customer.
+
+It was the first experience of working on an app that connects to an external periphery, bringing new challenges and learning during development.
 
 ---
 
