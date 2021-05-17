@@ -1,5 +1,6 @@
 <h1 align='center'>
-APP PARA PESAGEM DE EMBALAGENS
+Aplicativo de pesagem através de bluetooth / 
+Weighing app via bluetooth
 </h1>
 
 <h4 align="center"> 
