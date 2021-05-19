@@ -18,7 +18,7 @@ Weighing app via bluetooth
 
 ## About
 
-♻️ Este aplicativo tem a finalidade de pesar embalagens de ovos, que são armazenadas em caixas. As caixas são formadas por pilhas de embalagens que ao preencherem toda a caixa somam um valor total para a mesma. A pesagem é feita através uma balança de baixo porte conectada via Bluetooth, tornando a pesagem em etapas, até atingir o seu preenchimento.
+♻️ Este aplicativo tem a finalidade de pesar embalagens de ovos, que são armazenadas em caixas. As caixas são formadas por pilhas de embalagens que ao preencherem toda a caixa, somam um valor total para a mesma. A pesagem é feita através de uma balança de baixo porte conectada via Bluetooth, tornando a pesagem em etapas, até atingir o seu preenchimento.
 
 ##### english
 
@@ -26,7 +26,7 @@ This application is intended to weigh egg packages, which are stored in boxes. T
 
 #### Imagem da balança utilizada no projeto / Image of the balance used in the project
 
-![image info](https://16706.cdn.simplo7.net/static/16706/sku/linha-balancas-balancas-novas-balanca-toledo-9094-6-15-30kg--p-1599157498648.jpg)
+![image info](https://i.imgur.com/Fhhtm7q.png)
 
 ---
 
