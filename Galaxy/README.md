@@ -33,46 +33,46 @@ The components are formed by a json, which through user choices through the app,
 
 Exemplo de construção de um component dentro do Galaxy:
 
-1 - Qual será a missão?
-nome da requisicao (request)
-2 - Qual nave iremos?
-tipo de requisicao, shared,modal,page (req_option)
-3 - Onde iremos?
-componente ou plugin? e o metodo ..... se for componente não colocar o "plugin" se for plugin, colocar o "plugin" e o "sendToPlugin" (json)
-4 - O que será enviado?
-se for shared (mandar via o shared) se for plugin (sendToPlugin)  
-5 - Cheguei ao destino, preciso esperar algo?
-existe algum shared dentro do local de destino?  
-6 - O que será retornado?
-Html,data,Form,Todos juntos  
-7 - EU devo deixar em algum lugar?
-insert, caso a mesma rota tenha que se inserir (insert_into)
-8 - Faço algo mais com isso?
-response_control, pode parar a req, limpar parametros, limpar formulario,etc... (json)
-9 - Cheguei, mais alguma coisa?
-proxima sequencia
+- [x] Qual será a missão?
+      nome da requisicao (request)
+- [x] Qual nave iremos?
+      tipo de requisicao, shared,modal,page (req_option)
+- [x] Onde iremos?
+      componente ou plugin? e o metodo ..... se for componente não colocar o "plugin" se for plugin, colocar o "plugin" e o "sendToPlugin" (json)
+- [x] O que será enviado?
+      se for shared (mandar via o shared) se for plugin (sendToPlugin)
+- [x] Cheguei ao destino, preciso esperar algo?
+      existe algum shared dentro do local de destino?
+- [x] O que será retornado?
+      Html,data,Form,Todos juntos
+- [x] EU devo deixar em algum lugar?
+      insert, caso a mesma rota tenha que se inserir (insert_into)
+- [x] Faço algo mais com isso?
+      response_control, pode parar a req, limpar parametros, limpar formulario,etc... (json)
+- [x] Cheguei, mais alguma coisa?
+      proxima sequencia
 
 ##### english
 
 Example of building a component within the Galaxy:
 
-1 - What will be the mission?
-request name (request)
-2 - Which ship will we go to?
-request type, shared, modal, page (req_option)
-3 - Where will we go?
-component or plugin? and the method ..... if it is a component do not put the "plugin" if it is a plugin, put the "plugin" and "sendToPlugin" (json)
-4 - What will be sent?
-if it is shared (send via shared) if it is plugin (sendToPlugin)
-5 - I arrived at the destination, do I need to wait for something?
-is there any shared within the destination location?
-6 - What will be returned?
-Html, data, Form, All together
-7 - Should I leave it somewhere?
-insert, if the same route has to be inserted (insert_into)
-8 - Do I do anything else with this?
-response_control, you can stop the req, clear parameters, clear forms, etc ... (json)
-9 - I arrived, anything else? next sequence
+- [x] What will be the mission?
+      request name (request)
+- [x] Which ship will we go to?
+      request type, shared, modal, page (req_option)
+- [x] Where will we go?
+      component or plugin? and the method ..... if it is a component do not put the "plugin" if it is a plugin, put the "plugin" and "sendToPlugin" (json)
+- [x] What will be sent?
+      if it is shared (send via shared) if it is plugin (sendToPlugin)
+- [x] I arrived at the destination, do I need to wait for something?
+      is there any shared within the destination location?
+- [x] What will be returned?
+      Html, data, Form, All together
+- [x] Should I leave it somewhere?
+      insert, if the same route has to be inserted (insert_into)
+- [x] Do I do anything else with this?
+      response_control, you can stop the req, clear parameters, clear forms, etc ... (json)
+- [x] I arrived, anything else? next sequence
 
 ---
 
@@ -96,56 +96,38 @@ Lista de dependências utilizada para construção deste projeto / List of depen
 
 ```javascript
     "dependencies": {
-        "@connectedcars/react-native-slide-charts": "^1.0.5",
-        "@react-native-community/async-storage": "^1.7.1",
-        "@react-native-community/geolocation": "^2.0.2",
-        "@react-native-community/google-signin": "^4.0.3",
-        "@react-native-community/masked-view": "^0.1.6",
-        "axios": "^0.19.1",
-        "babel-plugin-transform-remove-console": "^6.9.4",
-        "d3-shape": "^2.0.0",
-        "i18n-js": "^3.5.1",
-        "lodash": "^4.17.19",
-        "lodash.memoize": "^4.1.2",
-        "moment": "^2.29.1",
-        "react": "^16.9.0",
-        "react-native": "0.61.5",
-        "react-native-calendars": "^1.261.0",
-        "react-native-gesture-handler": "^1.5.3",
-        "react-native-image-picker": "^3.1.4",
-        "react-native-iphone-x-helper": "^1.2.1",
-        "react-native-linear-gradient": "^2.5.6",
-        "react-native-localize": "^1.3.2",
-        "react-native-masked-text": "^1.13.0",
-        "react-native-modal": "^11.5.6",
-        "react-native-onesignal": "^4.0.4",
-        "react-native-paper": "^3.4.1",
-        "react-native-permissions": "^3.0.3",
-        "react-native-picker-select": "^7.0.0",
-        "react-native-progress-circle": "^2.1.0",
-        "react-native-reanimated": "^1.7.0",
-        "react-native-responsive-screen": "^1.3.1",
-        "react-native-restart": "0.0.17",
-        "react-native-safe-area-context": "^0.6.2",
-        "react-native-screens": "^2.0.0-alpha.25",
-        "react-native-share": "^5.1.4",
-        "react-native-shimmer-placeholder": "^1.0.35",
-        "react-native-snap-carousel": "^3.8.4",
-        "react-native-star-rating": "^1.1.0",
-        "react-native-step-indicator": "^0.0.11",
-        "react-native-svg": "^11.1.0",
-        "react-native-svg-charts": "^5.4.0",
-        "react-native-swiper-flatlist": "^2.0.3",
-        "react-native-switch-selector": "^2.0.4",
-        "react-native-vector-icons": "^7.0.0",
-        "react-native-view-shot": "^3.1.2",
-        "react-navigation": "^4.0.10",
-        "react-navigation-stack": "^2.0.15",
-        "react-navigation-tabs": "^2.7.0",
-        "reactotron-react-native": "^4.0.2",
-        "rn-fetch-blob": "^0.12.0",
-        "styled-components": "^5.0.0",
-        "throttle-debounce": "^2.1.0",
-        "use-state-with-callback": "^1.0.18"
-    }
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/slider": "^3.0.3",
+    "@react-native-community/voice": "^1.1.9",
+    "@react-native-picker/picker": "^1.9.4",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "axios": "^0.21.0",
+    "formik": "^2.2.5",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-color-picker": "^0.6.0",
+    "react-native-draggable-flatlist": "^2.5.1",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-iphone-x-helper": "^1.3.1",
+    "react-native-modal": "^11.5.6",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-progress-steps": "^1.3.4",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-restart": "^0.0.20",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-shake": "^3.5.0",
+    "react-native-slider-color-picker": "^2.2.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-webview": "^11.0.2",
+    "react-query": "^3.5.1",
+    "styled-components": "^5.2.1",
+    "tinycolor2": "^1.4.2"
+  },
 ```
