@@ -17,9 +17,9 @@ Galaxy
 
 ## About
 
-♻️ O galaxy é um app responsável por criar aplicações para cliente da Goldie It. Utilizando a base de código da empresa, este app faz comunicação através de envio de dados em json contento "tags" responsáveis por fazer viagens e montar componentes de uma tela.
+♻️ O galaxy é um app responsável por criar aplicações para cliente da Goldie It. Utilizando a base de código da empresa, este app faz comunicação através de envio de dados em json contendo "tags" responsáveis por fazer o cadastro e montar componentes de uma tela.
 
-Os components são formados por um json, que através de escolhas do usuário através do app, cria pastas e arquivos contendo códigos PHP com HTML e css, tornando o desenvimento de aplicação apenas por cliques através de um app para Android e Ios
+Os components são formados por um json, que através de escolhas do usuário através do app, cria pastas e arquivos contendo códigos PHP com HTML e css, tornando o desenvolvimento da aplicação apenas por cliques através de um app para Android e Ios.
 
 ##### english
 
